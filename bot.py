@@ -31,8 +31,8 @@ from aiogram.types import (
 
 BOT_TOKEN    = os.getenv("BOT_TOKEN",    "8890399400:AAHjImc1vz98emFFDguQGy2avg7Sn0gHXKE")
 GAME_URL     = os.getenv("GAME_URL",     "https://rall13.github.io/gramball/index.html")
-SERVER_URL   = os.getenv("SERVER_URL",   "").rstrip("/")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "").lstrip("@")  # например: mypenaltybot
+SERVER_URL   = os.getenv("SERVER_URL",   "").rstrip("/gramsoccer_bot")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "").lstrip("@gramsoccer_bot")  # например: mypenaltybot
 
 COUNTRY_NAMES = {
     "es": "Испания 🇪🇸",
